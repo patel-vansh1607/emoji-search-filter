@@ -1,6 +1,8 @@
 import EmojiPicker, {Emoji} from 'emoji-picker-react';
 
-function EmojiSearcher() {
+const EmojiSearcher = () => {
+const [selectedEmoji, setSelectedEmoji] = useState("");
+
   return (
     <div>
       <EmojiPicker />
