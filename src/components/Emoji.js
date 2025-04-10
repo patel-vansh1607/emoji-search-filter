@@ -1,4 +1,4 @@
-import EmojiPicker from 'emoji-picker-react';
+import EmojiPicker, {Emoji} from 'emoji-picker-react';
 
 function EmojiSearcher() {
   return (
