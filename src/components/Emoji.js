@@ -1,9 +1,11 @@
 import EmojiPicker from 'emoji-picker-react';
 
-function App() {
+function EmojiSearcher() {
   return (
     <div>
       <EmojiPicker />
     </div>
   );
 }
+
+export default EmojiSearcher
